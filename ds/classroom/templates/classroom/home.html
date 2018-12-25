@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Digital Stories</h2>
+  <p class="lead">
+    If you already have an account, go ahead and <a href="{% url 'login' %}">log in</a>. If you are new to Digital Stories, get started
+    by creating a <a href="{% url 'student_signup' %}">student account</a> or a <a href="{% url 'teacher_signup' %}">Teacher account</a>.
+  </p>
+  <hr>
+  <h3>What's this about?</h3>
+  <p>
+    Digital Stories is a community for like minded nerds. Where anyone can upload books and can create quiz on  books,chapters, and topics relevant.
+    It gives you an oppourtunity to cry about any plot from art to science and have your own personliazed way of generating and answering the quiz.
+  </p>
+  <hr>
+  <h3>Features</h3>
+  <p><a href="https://medium.com/@omensquare">1.Multiple user login</a></p>
+  <p><a href="https://medium.com/@omensquare">2.Gallery Generator</a></p>
+  <p><a href="https://medium.com/@omensquare">3.Generating google survey charts</a></p>
+  <hr>
+
+
+
+{% endblock %}
